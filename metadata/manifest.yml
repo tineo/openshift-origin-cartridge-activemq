@@ -1,7 +1,7 @@
 Name: activemq
 Cartridge-Short-Name: ACTIVEMQ
 Display-Name: ActiveMQ
-Description: "Apache ActiveMQ is the most popular and powerful open source messaging and Integration Patterns server."
+Description: "Apache ActiveMQ"
 Version: '5.8'
 License: Apache
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.html
@@ -19,28 +19,28 @@ Help-Topics:
 Cart-Data:
   - Key: OPENSHIFT_ACTIVEMQ_LOG_DIR
     Type: environment
-    Description: "Directory to store application log files."
+    Description: "."
   - Key: OPENSHIFT_TMP_DIR
     Type: environment
-    Description: "Directory to store application temporary files."
+    Description: "."
   - Key: OPENSHIFT_REPO_DIR
     Type: environment
-    Description: "Application root directory where application files reside. This directory is reset every time you do a git-push"
+    Description: "."
   - Key: OPENSHIFT_APP_DNS
     Type: environment
-    Description: "Fully qualified domain name for the application."
+    Description: ""
   - Key: OPENSHIFT_APP_NAME
     Type: environment
-    Description: "Application name"
+    Description: "."
   - Key: OPENSHIFT_DATA_DIR
     Type: environment
-    Description: "Directory to store application data files. Preserved across git-pushes. Not shared across gears."
+    Description: "."
   - Key: OPENSHIFT_APP_UUID
     Type: environment
-    Description: "Unique ID which identified the application. Does not change between gears."
+    Description: "."
   - Key: OPENSHIFT_GEAR_UUID
     Type: environment
-    Description: "Unique ID which identified the gear. This value changes between gears."
+    Description: "."
 Provides:
   - activemq-5.8
   - "activemq"
