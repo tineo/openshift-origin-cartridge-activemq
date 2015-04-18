@@ -1,7 +1,7 @@
 Name: activemq
 Cartridge-Short-Name: ACTIVEMQ
 Display-Name: ActiveMQ
-Description: "Apache ActiveMQ"
+Description: "ActiveMQ"
 Version: '5.8'
 License: Apache
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.html
@@ -11,8 +11,6 @@ Cartridge-Vendor: apache
 Source-Url: https://github.com/bdecoste/openshift-origin-cartridge-activemq.git
 Categories:
   - service
-  - database
-  - embedded
 Website: http://activemq.apache.org
 Help-Topics:
   "Developer Center": https://www.openshift.com/developers
